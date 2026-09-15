@@ -15,7 +15,7 @@ public class trapping_Water{
             rightMax[i]=Math.max(height[i],rightMax[i+1]);
          }
 
-         //loop
+         //loop 
          int trappedWater=0;
          for(int i=0;i<n;i++){
             int waterLevel =Math.min(leftMax[i],rightMax[i]);
